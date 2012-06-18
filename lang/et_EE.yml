@@ -1,286 +1,452 @@
-et_EE:
-  AssetAdmin:
-    MENUTITLE: "Failid ja pildid"
-    NEWFOLDER: "Uus kaust"
-  AssetTableField:
-    CREATED: "Esmakordselt üles laaditud"
-    DIM: "Mõõtmed"
-    FILENAME: "Failinimi"
-    LASTEDIT: "Viimati muudetud"
-    OWNER: "Omanik"
-    SIZE: "Suurus"
-    TITLE: "Pealkiri"
-    TYPE: "Tüüp"
-    URL: "Aadress"
-  BBCodeParser:
-    ALIGNEMENT: "Joondus"
-    ALIGNEMENTEXAMPLE: "Joondus paremale"
-    BOLD: "Paks tekst"
-    BOLDEXAMPLE: "Paks"
-    CODE: "Koodi plokk"
-    CODEDESCRIPTION: "Kodederimata koodi plokk"
-    CODEEXAMPLE: "Koodi plokk"
-    COLORED: "Värvitud tekst"
-    COLOREDEXAMPLE: "Sinine tekst"
-    EMAILLINK: "Emaili aadress"
-    EMAILLINKDESCRIPTION: "Loo link emaili aadrssile"
-    IMAGE: "Pilt"
-    IMAGEDESCRIPTION: "Näita pilti oma postituses"
-    ITALIC: "Kaldus text"
-    ITALICEXAMPLE: "Kaldus"
-    LINK: "Kodulehe link"
-    LINKDESCRIPTION: "Lingi teisele kodulehele või aadressile"
-    STRUCK: "Läbikriipsutatud tekst"
-    STRUCKEXAMPLE: "Läbikriipsutatud"
-    UNDERLINE: "Allajoonitud tekst"
-    UNDERLINEEXAMPLE: "Allajoonitud"
-    UNORDERED: "Järjestamata nimekiri"
-    UNORDEREDDESCRIPTION: "Järjestamata nimekiri"
-    UNORDEREDEXAMPLE1: "Järjestamata asi 1"
-  BasicAuth:
-    ENTERINFO: "Palun sisesta kasutajanimi ja parool."
-    ERRORNOTADMIN: "Antud kasutaja ei ole administraator."
-    ERRORNOTREC: "See kasutajanimi / parool ei ole tunnustatud"
-  CMSMain:
-    ACCESS: "Ligipääs jaotisele %s"
-    ACCESSALLINTERFACES: "Ligipääs kõigile Sisuhalduse kasutajaliidestele"
-    MENUTITLE: "Lehed"
-    SAVE: "Salvesta"
-  ChangePasswordEmail.ss:
-    CHANGEPASSWORDTEXT1: "Vahetasid oma parooli lehel"
-    CHANGEPASSWORDTEXT2: "Nüüd võid kasutada sisse logimiseks järgnevaid andmeid:"
-    EMAIL: "E-post"
-    HELLO: "Tere"
-    PASSWORD: "Parool"
-  ComplexTableField:
-    CLOSEPOPUP: "Sulge hüpikaken"
-    SUCCESSADD: "Lisatud %s %s %s"
-    SUCCESSEDIT: "Salvestatud %s %s %s"
-  ComplexTableField.ss:
-    ADDITEM: "Lisa %s"
-    SORTASC: "Sorteeri kasvavalt"
-    SORTDESC: "Sorteeri kahanevalt"
-  ComplexTableField_popup.ss:
-    NEXT: "Eelmine"
-    PREVIOUS: "Järgmine"
-  ConfirmedPasswordField:
-    ATLEAST: "Paroolid peavad olema vähemelt %s ühikut pikkad"
-    BETWEEN: "Paroolid peavad olema %s kuni %s ühiku pikkused"
-    MAXIMUM: "Paroolid võivad olla kuni %s ühikut pikkad"
-    SHOWONCLICKTITLE: "Muuda parool"
-  CreditCardField:
-    FIRST: "esimene"
-    FOURTH: "Neljas"
-    SECOND: "teine"
-    THIRD: "kolmas"
-  CurrencyField:
-    CURRENCYSYMBOL: "$"
-  DataObject:
-    PLURALNAME: "Andme objektid"
-    SINGULARNAME: "Andme objekt"
-  Date:
-    DAY: "Päev"
-    DAYS: "Päevad"
-    HOUR: "Tund"
-    HOURS: "Tunnid"
-    MIN: "Minut"
-    MINS: "Minutid"
-    MONTH: "Kuu"
-    MONTHS: "Kuud"
-    SEC: "Sekund"
-    SECS: "Sekundit"
-    TIMEDIFFAGO: "%s tagasi"
-    YEAR: "Aasta"
-    YEARS: "Aastad"
+et-EE:
   DateField:
-    NOTSET: "Pole seadistatud"
-    TODAY: "Täna"
-  DropdownField:
-    CHOOSE: "(Vali)"
-  EmailField:
-    VALIDATION: "Palun sisesta e-posti aadress."
-  File:
-    Content: "Sisu"
-    Filename: "Failinimi"
-    INVALIDEXTENSION: "Faili laiend pole lubatud (sobiv: %s)"
-    NOFILESIZE: "Faili suurus on null bitti."
-    Name: "Nimi"
-    PLURALNAME: "Failid"
-    SINGULARNAME: "Fail"
-    TOOLARGE: "fail liiga suur, maksimum lubatud %s."
-    Title: "Pealkiri"
-  ForgotPasswordEmail.ss:
-    HELLO: "Tere"
-    TEXT1: "Siin on sinu"
-    TEXT2: "Parooli tühistus link"
-    TEXT3: "-"
-  Form:
-    FIELDISREQUIRED: "%s on vajalik"
-    VALIDATIONCREDITNUMBER: "Ole kindel, et sisestasid %s krediitkaardi numbri õigesti"
-    VALIDATIONFAILED: "Valideerimine ebaõnnestus"
-    VALIDATIONNOTUNIQUE: "Sisestatud väärtus ei ole unikaalne"
-    VALIDATIONPASSWORDSDONTMATCH: "Paroolid ei katu"
-    VALIDATIONPASSWORDSNOTEMPTY: "Paroolid ei saa olla tühjad"
-    VALIDATIONSTRONGPASSWORD: "Paroolis peab olema vähemalt üks number ja täht"
-    VALIDATOR: "Kinnitaja"
-    VALIDCURRENCY: "Sisesta õige valuuta"
-  FormField:
-    NONE: "puudub"
+    VALIDDATEMINDATE: 'Your date has to be newer or matching the minimum allowed date (%s)'
+    NOTSET: 'Pole seadistatud'
+    VALIDDATEMAXDATE: 'Your date has to be older or matching the maximum allowed date (%s)'
+    TODAY: Täna
+    VALIDDATEFORMAT2: 'Please enter a valid date format (%s).'
   Group:
-    Code: "Grupi kood"
-    Description: "Kirjeldus"
-    Locked: "Lukus?"
-    Parent: "Vanem grupp"
-    Sort: "Järjesta"
-    has_many_Permissions: "Õigused"
-    many_many_Members: "Liikmed"
-  HtmlEditorField:
-    ANCHORVALUE: "Link"
-    BUTTONINSERTLINK: "Sisesta link"
-    BUTTONREMOVELINK: "Eemalda link"
-    CSSCLASS: "Joondus / Stiil"
-    CSSCLASSCENTER: "Keskel, iseseisvalt."
-    CSSCLASSLEFT: "Vasakul, tekst voldib ennast ümber."
-    CSSCLASSLEFTALONE: "Ise vasakule"
-    CSSCLASSRIGHT: "Paremal, tekst voldib ennast ümber."
-    EMAIL: "E-posti aadress"
-    FILE: "Fail"
-    FOLDER: "Kaust"
-    IMAGE: "Pilt"
-    IMAGEDIMENSIONS: "Mõõtmed"
-    IMAGEHEIGHTPX: "Laius"
-    IMAGEWIDTHPX: "Kõrgus"
-    LINK: "Link"
-    LINKANCHOR: "Link sellele lehele"
-    LINKDESCR: "Lingi kirjeldus"
-    LINKEMAIL: "E-posti aadressi"
-    LINKEXTERNAL: "Teist veebilehte"
-    LINKFILE: "Salvesta fail"
-    LINKINTERNAL: "Saidil olevat lehekülge"
-    LINKOPENNEWWIN: "Ava link uues aknas?"
-    LINKTO: "Lingi"
-    PAGE: "Leht"
-    URL: "URL"
-  Image_iframe.ss:
-    TITLE: "Pildi üleslaadimise Iframe"
-  LeftAndMain:
-    HELP: "Spikker"
-    PAGETYPE: "Lehekülje tüüp:"
-    PERMAGAIN: "Oled Sisuhaldusest välja logitud. Kui soovite uuesti sisse logida sisestage kasutajanimi ja parool."
-    PERMALREADY: "Vabandust, aga sul pole lubatud sisuhaldussüsteemi selle osa juurde pääseda. Kui soovid kellegi teisena sisse logida, tee seda allpool."
-    PERMDEFAULT: "Sisesta oma e-posti aadress ja parool sisuhaldussüsteemi ligipääsemiseks."
-    PLEASESAVE: "Palun Salvesta Lehekülg: Antud lehekülge ei uuendatud, kuna seda ei ole veel salvestatud."
-    SAVED: "salvestatud"
-  LoginAttempt:
-    Email: "E-posti aadress"
-    IP: "IP Aadress"
-    Status: "Staatus"
-  Member:
-    ADDRESS: "Aadress"
-    BUTTONCHANGEPASSWORD: "Muuda parool"
-    BUTTONLOGIN: "Logi sisse"
-    BUTTONLOGINOTHER: "Logi sisse kellegi teisena"
-    BUTTONLOSTPASSWORD: "Kaotasin oma parooli"
-    CONFIRMNEWPASSWORD: "Kinnita uus parool"
-    CONFIRMPASSWORD: "Kinnita parool"
-    CONTACTINFO: "Kontakt informatsioon"
-    EMAIL: "E-post"
-    EMAILSIGNUPINTRO1: "Täname, et registreerisid uueks kasutajaks, sinu andmed on tuleviku tarbeks kirjas allpool."
-    EMAILSIGNUPINTRO2: "Te saate siseneda kodulehele kasutades allolevaid andmeid"
-    EMAILSIGNUPSUBJECT: "Täname registreerimast"
-    ENTEREMAIL: "Palun sisesta email, et saada paooli tühistamise link"
-    ERRORLOCKEDOUT: "Konto on liiga paljude ebaõnnestunud sisselogimiskatsete tõttu ajutiselt blokeeritud. Palun oota 20 minutit ja proovi siis uuesti."
-    ERRORNEWPASSWORD: "Te sisestasite oma parooli erinevalt, proovige uuesti"
-    ERRORPASSWORDNOTMATCH: "Sisestatud paroolid ei kattu, palun proovi uuesti"
-    ERRORWRONGCRED: "Tundub, et e-posti aadress või parool on vale. Palun proovi uuesti."
-    FIRSTNAME: "Eesnimi"
-    GREETING: "Tere tulemast"
-    INTERFACELANG: "Kasutajaliidese keel"
-    LOGGEDINAS: "Oled sisse logitud kui %s."
-    MOBILE: "Mobiil"
-    NAME: "Nimi"
-    NEWPASSWORD: "Uus parool"
-    PASSWORD: "Parool"
-    PHONE: "Telefon"
-    PLURALNAME: "Kasutajad"
-    PROFILESAVESUCCESS: "Edukalt salvestatud"
-    REMEMBERME: "Pea mind meeles?"
-    SINGULARNAME: "Kasutaja"
-    SUBJECTPASSWORDCHANGED: "Sinu parool on muudetud"
-    SUBJECTPASSWORDRESET: "Sinu parooli lähtestamise link"
-    SURNAME: "Perekonnanimi"
-    VALIDATIONMEMBEREXISTS: "Sellise e-posti aadressiga liige on juba olemas"
-    WELCOMEBACK: "Tere tulemast tagasi, %s"
-    YOUROLDPASSWORD: "Sinu vana parool"
-    belongs_many_many_Groups: "Grupid"
-    db_LastVisited: "Viimati külastatud kuupäev"
-    db_Locale: "kohalik välimus"
-    db_LockedOutUntil: "Suletud kuni"
-    db_NumVisit: "Külastusi kokku"
-    db_Password: "Parool"
-    db_PasswordExpiry: "Parool aegumise kuupäev"
-  MemberAuthenticator:
-    TITLE: "E-post ja parool"
-  ModelAdmin:
-    DELETE: "Kustuta"
-    DELETEDRECORDS: "Kustutatud %s kirjet."
-    IMPORT: "Impordi CSV failist"
-    IMPORTEDRECORDS: "Imporditud %s kirjet."
-    NOCSVFILE: "Palun avage CSV fail impordiks"
-    NOIMPORT: "Midagi pole importida"
-    UPDATEDRECORDS: "Uuendatud %s kirjet."
-  NumericField:
-    VALIDATION: "'%s' ei ole number, ainult numbrid on lubatud selles väljas"
-  Permission:
-    FULLADMINRIGHTS: "Täis administraatori õigused"
-  PhoneNumberField:
-    VALIDATION: "Palun sisesta kehtiv telefoninumber"
-  RelationComplexTableField.ss:
-    ADD: "Lisa"
-  ReportAdmin:
-    MENUTITLE: "Aruanded"
-  Security:
-    ALREADYLOGGEDIN: "Sul puudub õigus sellele lehele pääsemiseks. Kui sul on teine konto, millega siia sisse logida, võid <a href=\"%s\">uuesti sisse logida</a>."
-    BUTTONSEND: "Saada parooli tühistamise link"
-    CHANGEPASSWORDBELOW: "Saad muuta oma parooli allpool."
-    CHANGEPASSWORDHEADER: "Muuda oma parool"
-    ENTERNEWPASSWORD: "Palun sisesta uus parool."
-    ERRORPASSWORDPERMISSION: "Pead olema sisseloginud, et parooli muuta!"
-    LOGGEDOUT: "Olete välja loginud. Kui soovite uuesti siseneda, sisestage oma andmed allpool"
-    LOGIN: "Logi sisse"
-    NOTEPAGESECURED: "See leht on turvatud. Sisesta enda andmed allpool ja me saadame sind otse edasi"
-    NOTERESETLINKINVALID: "<p>Parooli tühistamise link on vale või aegunud.</p><p>Saad küsida uue <a href=\"%s\">siit</a> või muuta oma parooli peale <a href=\"%s\">sisenemist siit</a>.</p>"
-    NOTERESETPASSWORD: "Sisesta oma email ja me saadame sulle lingi kus saad oma parooli tühistada."
-    PASSWORDSENTHEADER: "Parooli tühistus link saadetud '%s'"
-    PASSWORDSENTTEXT: "Täname ! Parooli tühistus link on saadetud '%s'."
+    Sort: Järjesta
+    many_many_Members: Liikmed
+    Code: 'Grupi kood'
+    Locked: 'Lukus?'
+    Description: Kirjeldus
+    Parent: 'Vanem grupp'
+    NoRoles: 'No roles found'
+    DefaultGroupTitleAdministrators: Administrators
+    GroupReminder: 'If you choose a parent group, this group will take all it''s roles'
+    DefaultGroupTitleContentAuthors: 'Content Authors'
+    AddRole: 'Add a role for this group'
+    has_many_Permissions: Õigused
+    RolesAddEditLink: 'Manage roles'
+    TITLE: 'Pildi üleslaadimise Iframe'
+    CHANGEPASSWORDTEXT1: 'Vahetasid oma parooli lehel'
+    CHANGEPASSWORDTEXT2: 'Nüüd võid kasutada sisse logimiseks järgnevaid andmeid:'
+    EMAIL: E-post
+    PASSWORD: Parool
+    HELLO: Tere
   SecurityAdmin:
-    EDITPERMISSIONS: "Muuda õigusi ja IP aadresse igal grupil"
-    GROUPNAME: "Rühma nimi"
-    MEMBERS: "Kasutajad"
-    MENUTITLE: "Turvalisus"
-    NEWGROUP: "Uus rühm"
-    PERMISSIONS: "Õigused"
+    IMPORTUSERS: 'Import users'
+    ROLES: Roles
+    MENUTITLE: Turvalisus
+    EDITPERMISSIONS_HELP: 'Ability to edit Permissions and IP Addresses for a group. Requires the "Access to ''Security'' section" permission.'
+    MemberListCaution: 'Caution: Removing members from this list will remove them from all groups and the database'
+    TABROLES: Roles
+    APPLY_ROLES_HELP: 'Ability to edit the roles assigned to a group. Requires the "Access to ''Users'' section" permission.'
+    ROLESDESCRIPTION: 'Roles are predefined sets of permissions, and can be assigned to groups.<br />They are inherited from parent groups if required.'
+    NEWGROUP: 'Uus rühm'
+    Users: Users
+    EDITPERMISSIONS: 'Muuda õigusi ja IP aadresse igal grupil'
+    IMPORTGROUPS: 'Import groups'
+    GROUPNAME: 'Rühma nimi'
+    APPLY_ROLES: 'Apply roles to groups'
+    MEMBERS: Kasutajad
+    ACCESS_HELP: 'Allow viewing, adding and editing users, as well as assigning permissions and roles to them.'
+    PERMISSIONS: Õigused
   SimpleImageField:
-    NOUPLOAD: "Pilte pole üles laaditud"
-  SiteTree:
-    TABMAIN: "Avaleht"
-  TableField:
-    ISREQUIRED: "%s on '%s' vajalik"
-  TableField.ss:
-    ADD: "Lisa uus rida"
+    NOUPLOAD: 'Pilte pole üles laaditud'
   TableListField:
-    CSVEXPORT: "Ekspordi CSV-sse"
-    PRINT: "Prindi"
-  TableListField_PageControls.ss:
-    VIEWFIRST: "Vaata esimest"
-    VIEWLAST: "Vaata viimast"
-    VIEWNEXT: "Vaata järgmist"
-    VIEWPREVIOUS: "Vaata eelmist"
-  ToggleCompositeField.ss:
-    HIDE: "Peida"
-    SHOW: "Näita"
+    PRINT: Prindi
+    Print: Prindi
+    CSVEXPORT: 'Ekspordi CSV-sse'
+    SELECT: 'Select:'
+  Member:
+    INTERFACELANG: 'Kasutajaliidese keel'
+    PLURALNAME: Kasutajad
+    db_LockedOutUntil: 'Suletud kuni'
+    BUTTONLOSTPASSWORD: 'Kaotasin oma parooli'
+    db_Locale: 'kohalik välimus'
+    ERRORNEWPASSWORD: 'Te sisestasite oma parooli erinevalt, proovige uuesti'
+    VALIDATIONMEMBEREXISTS: 'Sellise e-posti aadressiga liige on juba olemas'
+    CONFIRMPASSWORD: 'Kinnita parool'
+    EMAILSIGNUPINTRO2: 'Te saate siseneda kodulehele kasutades allolevaid andmeid'
+    EMAILSIGNUPINTRO1: 'Täname, et registreerisid uueks kasutajaks, sinu andmed on tuleviku tarbeks kirjas allpool.'
+    SUBJECTPASSWORDRESET: 'Sinu parooli lähtestamise link'
+    CONTACTINFO: 'Kontakt informatsioon'
+    SURNAME: Perekonnanimi
+    db_NumVisit: 'Külastusi kokku'
+    ERRORLOCKEDOUT: 'Konto on liiga paljude ebaõnnestunud sisselogimiskatsete tõttu ajutiselt blokeeritud. Palun oota 20 minutit ja proovi siis uuesti.'
+    DefaultDateTime: default
+    WELCOMEBACK: 'Tere tulemast tagasi, %s'
+    EMAIL: E-post
+    PHONE: Telefon
+    CONFIRMNEWPASSWORD: 'Kinnita uus parool'
+    DefaultAdminFirstname: 'Default Admin'
+    ENTEREMAIL: 'Palun sisesta email, et saada paooli tühistamise link'
+    db_LastVisited: 'Viimati külastatud kuupäev'
+    EMPTYNEWPASSWORD: 'The new password can''t be empty, please try again'
+    BUTTONLOGINOTHER: 'Logi sisse kellegi teisena'
+    PROFILESAVESUCCESS: 'Edukalt salvestatud'
+    INVALIDNEWPASSWORD: 'We couldn''t accept that password: %s'
+    REMEMBERME: 'Pea mind meeles?'
+    BUTTONCHANGEPASSWORD: 'Muuda parool'
+    SINGULARNAME: Kasutaja
+    EMAILSIGNUPSUBJECT: 'Täname registreerimast'
+    LOGGEDINAS: 'Oled sisse logitud kui %s.'
+    PASSWORD: Parool
+    db_PasswordExpiry: 'Parool aegumise kuupäev'
+    YOUROLDPASSWORD: 'Sinu vana parool'
+    ERRORPASSWORDNOTMATCH: 'Sisestatud paroolid ei kattu, palun proovi uuesti'
+    NAME: Nimi
+    FIRSTNAME: Eesnimi
+    BUTTONLOGIN: 'Logi sisse'
+    db_Password: Parool
+    ERRORWRONGCRED: 'Tundub, et e-posti aadress või parool on vale. Palun proovi uuesti.'
+    GREETING: 'Tere tulemast'
+    MOBILE: Mobiil
+    belongs_many_many_Groups: Grupid
+    SUBJECTPASSWORDCHANGED: 'Sinu parool on muudetud'
+    ValidationIdentifierFailed: 'Can''t overwrite existing member #%d with identical identifier (%s = %s))'
+    ADDRESS: Aadress
+    NEWPASSWORD: 'Uus parool'
+  UploadField:
+    ATTACHFILE: 'Attach a file'
+    AttachFile: 'Attach a file'
+    FROMFILES: 'From files'
+    DROPFILES: 'drop files'
+    FIELDNOTSET: 'File information not found'
+    ATTACHFILES: 'Attach files'
+    DROPFILE: 'drop a file'
+    DOEDIT: Save
+    MAXNUMBEROFFILES: 'Max number of %s file(s) exceeded.'
+    EDITINFO: 'Edit this file'
+    REMOVEERROR: 'Error removing file'
+    STARTALL: 'Start all'
+    REMOVEINFO: 'Remove this file from here, but do not delete it from the file store'
+    FROMCOMPUTER: 'From your computer'
+    Saved: Saved
+    DELETEINFO: 'Permanently delete this file from the file store'
+  CreditCardField:
+    SECOND: teine
+    FOURTH: Neljas
+    THIRD: kolmas
+    FIRST: esimene
+  PhoneNumberField:
+    VALIDATION: 'Palun sisesta kehtiv telefoninumber'
+  TimeField:
+    VALIDATEFORMAT: 'Please enter a valid time format (%s)'
+  AssetUploadField:
+    UPLOADOR: OR
+    DRAGFILESHERE: 'Drag files here'
+    FROMCOMPUTER: 'Choose files from your computer'
+    ChooseFiles: 'Choose files'
+    EDITANDORGANIZE: 'Edit & organize'
+    DROPAREA: 'Drop Area'
+  NumericField:
+    VALIDATION: '''%s'' ei ole number, ainult numbrid on lubatud selles väljas'
+  Enum:
+    ANY: Any
+  GridField:
+    NewRecord: 'New %s'
+    RelationSearch: 'Relation search'
+    AddNew: 'Add New'
+    PlaceHolderWithLabels: 'Find %s by %s'
+    PRINTEDBY: 'Printed by'
+    Filter: Filter
+    PRINTEDAT: 'Printed at'
+    NoItemsFound: 'No items found'
+    ResetFilter: Reset
+    LinkExisting: 'Link Existing'
+    PlaceHolder: 'Find %s'
+    Find: Find
+  Email_BounceRecord:
+    PLURALNAME: 'Email Bounce Records'
+    SINGULARNAME: 'Email Bounce Record'
+    ADD: Lisa
+  BBCodeParser:
+    EMAILLINK: 'Emaili aadress'
+    CODE: 'Koodi plokk'
+    COLORED: 'Värvitud tekst'
+    UNDERLINEEXAMPLE: Allajoonitud
+    BOLDEXAMPLE: Paks
+    IMAGEDESCRIPTION: 'Näita pilti oma postituses'
+    LINKDESCRIPTION: 'Lingi teisele kodulehele või aadressile'
+    STRUCKEXAMPLE: Läbikriipsutatud
+    LINK: 'Kodulehe link'
+    ALIGNEMENT: Joondus
+    BOLD: 'Paks tekst'
+    UNORDEREDEXAMPLE1: 'Järjestamata asi 1'
+    UNORDEREDDESCRIPTION: 'Järjestamata nimekiri'
+    COLOREDEXAMPLE: 'Sinine tekst'
+    ALIGNEMENTEXAMPLE: 'Joondus paremale'
+    IMAGE: Pilt
+    ITALICEXAMPLE: Kaldus
+    CODEDESCRIPTION: 'Kodederimata koodi plokk'
+    UNORDERED: 'Järjestamata nimekiri'
+    CODEEXAMPLE: 'Koodi plokk'
+    EMAILLINKDESCRIPTION: 'Loo link emaili aadrssile'
+    ITALIC: 'Kaldus text'
+    STRUCK: 'Läbikriipsutatud tekst'
+    UNDERLINE: 'Allajoonitud tekst'
+  Date:
+    TIMEDIFFAGO: '%s tagasi'
+    MINS: Minutid
+    HOUR: Tund
+    MIN: Minut
+    MONTHS: Kuud
+    DAYS: Päevad
+    MONTH: Kuu
+    HOURS: Tunnid
+    SECS: Sekundit
+    SEC: Sekund
+    YEAR: Aasta
+    TIMEDIFFIN: 'in %s'
+    YEARS: Aastad
+    DAY: Päev
   ToggleField:
-    LESS: "Vähem"
-    MORE: "Veel"
+    LESS: Vähem
+    MORE: Veel
+  PermissionCheckboxSetField:
+    FromGroup: 'inherited from group "%s"'
+    AssignedTo: 'assigned to "%s"'
+    FromRole: 'inherited from role "%s"'
+    FromRoleOnGroup: 'inherited from role "%s" on group "%s"'
+  Permissions:
+    PERMISSIONS_CATEGORY: 'Roles and access permissions'
+    TEXT2: 'Parooli tühistus link'
+    TEXT3: -
+    TEXT1: 'Siin on sinu'
+    HELLO: Tere
+    NONE: none
+  MemberTableField:
+    HIDE: Peida
+    SHOW: Näita
+    VIEWPREVIOUS: 'Vaata eelmist'
+    VIEWNEXT: 'Vaata järgmist'
+    VIEWFIRST: 'Vaata esimest'
+    VIEWLAST: 'Vaata viimast'
+  GridFieldDetailsForm:
+    Create: Create
+    DeletePermissionsFailure: 'No delete permissions'
+    Save: Save
+    Delete: Delete
+  GridFieldAction_Delete:
+    DeletePermissionsFailure: 'No delete permissions'
+    NEXT: Eelmine
+    PREVIOUS: Järgmine
+  BasicAuth:
+    ERRORNOTREC: 'See kasutajanimi / parool ei ole tunnustatud'
+    ENTERINFO: 'Palun sisesta kasutajanimi ja parool.'
+    ERRORNOTADMIN: 'Antud kasutaja ei ole administraator.'
+  ComplexTableField:
+    CLOSEPOPUP: 'Sulge hüpikaken'
+    SUCCESSADD: 'Lisatud %s %s %s'
+    SUCCESSEDIT: 'Salvestatud %s %s %s'
+    SUCCESSEDIT2: 'Deleted %s %s'
+  LoginAttempt:
+    Status: Staatus
+    IP: 'IP Aadress'
+    Email: 'E-posti aadress'
+  ImageField:
+    IMAGE: Image
+  HtmlEditorField:
+    LINKEXTERNAL: 'Teist veebilehte'
+    BUTTONINSERT: Insert
+    CSSCLASSRIGHT: 'Paremal, tekst voldib ennast ümber.'
+    BUTTONINSERTLINK: 'Sisesta link'
+    BUTTONREMOVELINK: 'Eemalda link'
+    LINK: Link
+    FILE: Fail
+    EMAIL: 'E-posti aadress'
+    IMAGEWIDTHPX: Kõrgus
+    IMAGE: Pilt
+    LINKINTERNAL: 'Saidil olevat lehekülge'
+    CSSCLASSCENTER: 'Keskel, iseseisvalt.'
+    FROMCOMPUTER: 'From your computer'
+    FROMCMS: 'From the CMS'
+    CSSCLASS: 'Joondus / Stiil'
+    CSSCLASSLEFTALONE: 'Ise vasakule'
+    LINKEMAIL: 'E-posti aadressi'
+    ANCHORVALUE: Link
+    URL: URL
+    IMAGEDIMENSIONS: Mõõtmed
+    LINKANCHOR: 'Link sellele lehele'
+    EditDetails: 'Edit details'
+    IMAGEALTTEXT: 'Alternative text (alt) - shown if image cannot be displayed'
+    IMAGETITLE: 'Title text (tooltip) - for additional information about the image'
+    FOLDER: Kaust
+    Find: Find
+    CSSCLASSLEFT: 'Vasakul, tekst voldib ennast ümber.'
+    LINKTO: Lingi
+    IMAGEHEIGHTPX: Laius
+    LINKOPENNEWWIN: 'Ava link uues aknas?'
+    PAGE: Leht
+    CAPTIONTEXT: 'Caption text'
+    LINKDESCR: 'Lingi kirjeldus'
+    LINKFILE: 'Salvesta fail'
+    DETAILS: Details
+  MemberImportForm:
+    ResultCreated: 'Created %d members'
+    ResultUpdated: 'Updated %d members'
+    Help2: "<div class="advanced">\t<h4>Advanced usage</h4>\t<ul>\t<li>Allowed columns: <em>%s</em></li>\t<li>Existing users are matched by their unique <em>Code</em> property, and updated with any new values from the imported file.</li>\t<li>Groups can be assigned by the <em>Groups</em> column. Groups are identified by their <em>Code</em> property, multiple groups can be separated by comma. Existing group memberships are not cleared.</li>\t</ul></div>"
+    ResultDeleted: 'Deleted %d members'
+    Help1: '<p>Import users in <em>CSV format</em> (comma-separated values). <small><a href="#" class="toggle-advanced">Show advanced usage</a></small></p>'
+    ResultNone: 'No changes'
+  LeftAndMain:
+    DropdownBatchActionsDefault: Actions
+    PLEASESAVE: 'Palun Salvesta Lehekülg: Antud lehekülge ei uuendatud, kuna seda ei ole veel salvestatud.'
+    HELP: Spikker
+    PERMAGAIN: 'Oled Sisuhaldusest välja logitud. Kui soovite uuesti sisse logida sisestage kasutajanimi ja parool.'
+    VersionUnknown: unknown
+    PAGETYPE: 'Lehekülje tüüp:'
+    PERMDEFAULT: 'Sisesta oma e-posti aadress ja parool sisuhaldussüsteemi ligipääsemiseks.'
+    CANT_REORGANISE: 'You do not have permission to rearange the site tree. Your change was not saved.'
+    SAVED: salvestatud
+    PERMALREADY: 'Vabandust, aga sul pole lubatud sisuhaldussüsteemi selle osa juurde pääseda. Kui soovid kellegi teisena sisse logida, tee seda allpool.'
+    ADD: 'Lisa uus rida'
+  NullableField:
+    IsNullLabel: 'Is Null'
+  MoneyField:
+    FIELDLABELCURRENCY: Currency
+    FIELDLABELAMOUNT: Amount
+  EmailField:
+    VALIDATION: 'Palun sisesta e-posti aadress.'
+  FileIFrameField:
+    NOSOURCE: 'Please select a source file to attach'
+    REPLACE: 'Replace %s'
+    FROMFILESTORE: 'From the File Store'
+    ATTACH: 'Attach %s'
+    FILE: File
+    FROMCOMPUTER: 'From your Computer'
+    ATTACHONCESAVED: '%ss can be attached once you have saved the record for the first time.'
+    DISALLOWEDFILETYPE: 'This filetype is not allowed to be uploaded'
+    DELETE: 'Delete %s'
+  SiteTree:
+    TABMAIN: Avaleht
   Versioned:
-    has_many_Versions: "Versioon"
+    has_many_Versions: Versioon
+  CMSMain:
+    ACCESS: 'Ligipääs jaotisele %s'
+    ACCESSALLINTERFACESHELP: 'Overrules more specific access settings.'
+    SAVE: Salvesta
+    ACCESSALLINTERFACES: 'Ligipääs kõigile Sisuhalduse kasutajaliidestele'
+  GroupImportForm:
+    ResultCreated: 'Created %d groups'
+    ResultUpdated: 'Updated %d groups'
+    Help1: '<p>Import one or more groups in <em>CSV</em> format (comma-separated values). <small><a href="#" class="toggle-advanced">Show advanced usage</a></small></p>'
+    Help2: "<div class="advanced">\t<h4>Advanced usage</h4>\t<ul>\t<li>Allowed columns: <em>%s</em></li>\t<li>Existing groups are matched by their unique <em>Code</em> value, and updated with any new values from the imported file</li>\t<li>Group hierarchies can be created by using a <em>ParentCode</em> column.</li>\t<li>Permission codes can be assigned by the <em>PermissionCode</em> column. Existing permission codes are not cleared.</li>\t</ul></div>"
+    ResultDeleted: 'Deleted %d groups'
+  DataObject:
+    PLURALNAME: 'Andme objektid'
+    SINGULARNAME: 'Andme objekt'
+  ConfirmedPasswordField:
+    BETWEEN: 'Paroolid peavad olema %s kuni %s ühiku pikkused'
+    ATLEAST: 'Paroolid peavad olema vähemelt %s ühikut pikkad'
+    SHOWONCLICKTITLE: 'Muuda parool'
+    MAXIMUM: 'Paroolid võivad olla kuni %s ühikut pikkad'
+  AssetAdmin:
+    NEWFOLDER: 'Uus kaust'
+  DropdownField:
+    CHOOSE: (Vali)
+  Form:
+    FIELDISREQUIRED: '%s on vajalik'
+    VALIDATIONCREDITNUMBER: 'Ole kindel, et sisestasid %s krediitkaardi numbri õigesti'
+    VALIDATIONPASSWORDSNOTEMPTY: 'Paroolid ei saa olla tühjad'
+    VALIDATOR: Kinnitaja
+    VALIDCURRENCY: 'Sisesta õige valuuta'
+    VALIDATIONSTRONGPASSWORD: 'Paroolis peab olema vähemalt üks number ja täht'
+    VALIDATIONFAILED: 'Valideerimine ebaõnnestus'
+    VALIDATIONPASSWORDSDONTMATCH: 'Paroolid ei katu'
+    VALIDATIONNOTUNIQUE: 'Sisestatud väärtus ei ole unikaalne'
+    TITLE: 'Image Uploading Iframe'
+  TableField:
+    ISREQUIRED: '%s on ''%s'' vajalik'
+    SORTASC: 'Sort in ascending order'
+    ADDITEM: 'Lisa %s'
+    SORTDESC: 'Sort in descending order'
+  CurrencyField:
+    CURRENCYSYMBOL: $
+  MemberAuthenticator:
+    TITLE: 'E-post ja parool'
+  SecurityAdmin_MemberImportForm:
+    BtnImport: 'Import from CSV'
+    FileFieldLabel: 'CSV File <small>(Allowed extensions: *.csv)</small>'
+  Security:
+    BUTTONSEND: 'Saada parooli tühistamise link'
+    NOTERESETLINKINVALID: '<p>Parooli tühistamise link on vale või aegunud.</p><p>Saad küsida uue <a href="%s">siit</a> või muuta oma parooli peale <a href="%s">sisenemist siit</a>.</p>'
+    ALREADYLOGGEDIN: 'Sul puudub õigus sellele lehele pääsemiseks. Kui sul on teine konto, millega siia sisse logida, võid <a href="%s">uuesti sisse logida</a>.'
+    LOGGEDOUT: 'Olete välja loginud. Kui soovite uuesti siseneda, sisestage oma andmed allpool'
+    CHANGEPASSWORDBELOW: 'Saad muuta oma parooli allpool.'
+    ERRORPASSWORDPERMISSION: 'Pead olema sisseloginud, et parooli muuta!'
+    ENTERNEWPASSWORD: 'Palun sisesta uus parool.'
+    NOTEPAGESECURED: 'See leht on turvatud. Sisesta enda andmed allpool ja me saadame sind otse edasi'
+    CHANGEPASSWORDHEADER: 'Muuda oma parool'
+    PASSWORDSENTTEXT: 'Täname ! Parooli tühistus link on saadetud ''%s''.'
+    LOGIN: 'Logi sisse'
+    PASSWORDSENTHEADER: 'Parooli tühistus link saadetud ''%s'''
+    NOTERESETPASSWORD: 'Sisesta oma email ja me saadame sulle lingi kus saad oma parooli tühistada.'
+  GridAction:
+    UnlinkRelation: Unlink
+    Delete: Delete
+  CMSProfileController:
+    MENUTITLE: CMSProfileController
+  MemberDatetimeOptionsetField:
+    DATEFORMATBAD: 'Date format is invalid'
+    TOGGLEHELP: 'Toggle formatting help'
+    DAYNOLEADING: 'Day of month without leading zero'
+    TWODIGITHOUR: 'Two digits of hour (00 through 23)'
+    TWODIGITYEAR: 'Two-digit year'
+    Custom: Custom
+    TWODIGITDAY: 'Two-digit day of month'
+    TWODIGITMINUTE: 'Two digits of minute (00 through 59)'
+    Preview: Preview
+    MONTHNOLEADING: 'Month digit without leading zero'
+    DIGITSDECFRACTIONSECOND: 'One or more digits representing a decimal fraction of a second'
+    HOURNOLEADING: 'Hour without leading zero'
+    FOURDIGITYEAR: 'Four-digit year'
+    MINUTENOLEADING: 'Minute without leading zero'
+    SHORTMONTH: 'Short name of month (e.g. Jun)'
+    TWODIGITSECOND: 'Two digits of second (00 through 59)'
+    TWODIGITMONTH: 'Two-digit month (01=January, etc.)'
+    FULLNAMEMONTH: 'Full name of month (e.g. June)'
+    AMORPM: 'AM (Ante meridiem) or PM (Post meridiem)'
+  Hierarchy:
+    InfiniteLoopNotAllowed: 'Infinite loop found within the "%s" hierarchy. Please change the parent to resolve this'
+  Permission:
+    AdminGroup: Administrator
+    CMS_ACCESS_CATEGORY: 'CMS Access'
+    FULLADMINRIGHTS: 'Täis administraatori õigused'
+    FULLADMINRIGHTS_HELP: 'Implies and overrules all other assigned permissions.'
+  FormField:
+    NONE: puudub
+  Boolean:
+    0: 'False'
+    1: 'True'
+    ANY: Any
+  CheckboxField:
+    - 'False'
+    - 'True'
+  File:
+    Name: Nimi
+    Title: Pealkiri
+    NOVALIDUPLOAD: 'File is not a valid upload'
+    Filename: Failinimi
+    Content: Sisu
+    INVALIDEXTENSION: 'Faili laiend pole lubatud (sobiv: %s)'
+    SINGULARNAME: Fail
+    TOOLARGE: 'fail liiga suur, maksimum lubatud %s.'
+    NOFILESIZE: 'Faili suurus on null bitti.'
+    PLURALNAME: Failid
+  AssetTableField:
+    DIM: Mõõtmed
+    LASTEDIT: 'Viimati muudetud'
+    CREATED: 'Esmakordselt üles laaditud'
+    URL: Aadress
+    TITLE: Pealkiri
+    FILENAME: Failinimi
+    OWNER: Omanik
+    FOLDER: Folder
+    BACKLINKCOUNT: 'Used on:'
+    TYPE: Tüüp
+    PAGES: page(s)
+    SIZE: Suurus
+  ModelAdmin:
+    RESET: Reset
+    NOIMPORT: 'Midagi pole importida'
+    IMPORTEDRECORDS: 'Imporditud %s kirjet.'
+    DELETEDRECORDS: 'Kustutatud %s kirjet.'
+    IMPORT: 'Impordi CSV failist'
+    UPDATEDRECORDS: 'Uuendatud %s kirjet.'
+    NOCSVFILE: 'Palun avage CSV fail impordiks'
+    DELETE: Kustuta
+  Image_iframe.ss: 'ChangePasswordEmail.ss:  RelationComplexTableField.ss:  ForgotPasswordEmail.ss:  TextareaField_Readonly.ss:    APPLY FILTER: "Apply Filter"  GridFieldItemEditView.ss:    Go back: "Go back"  ToggleCompositeField.ss:  TableListField_PageControls.ss:  ComplexTableField_popup.ss:  TableField.ss:  FileIFrameField_iframe.ss:  ComplexTableField.ss:  TableListField.ss:'
